@@ -40,7 +40,7 @@ const loginUser = async (req, res) => {
             }
             const token = jwtWebToken.sign(data, 'secret_ecom')
             res.send({ success: true, token })
-        }
+        } 
         else { 
             res.status(400).send({success:false,message:"wrong password"})
         }
