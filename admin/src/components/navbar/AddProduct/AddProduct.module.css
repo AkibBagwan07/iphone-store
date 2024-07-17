@@ -1,0 +1,49 @@
+.AddProduct{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 700px;
+    padding: 30px 50px;
+    margin: 20px 30px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.inputTitle{
+    width: 100%;
+    color: #7b7b7b;
+    font-size: 20px;
+}
+
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    margin: 16px 0px;
+}
+
+.image{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.BtnContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.AddBtn{
+    width: 240px;
+}
+
+.TextField{
+  width: 100%;
+  margin: 8px 8px !important;
+}
+
+@media(max-width:800px){
+    .AddProduct{
+        width: auto;
+        padding: 30px;
+        margin: 20px 0px 20px 20px ;
+    }
+}

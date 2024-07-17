@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    padding: 15px 30px;
+    box-shadow: 0 1px 3px -2px #000;
+    margin-bottom: 1px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 95.5%;
+    flex-wrap: wrap;
+  }
+
+.navlogo{
+  width: 24%;
+  height: 24%;
+}
+
+.branding{
+  display: flex;
+}
+
+.name{
+  font-size: 2em;
+  margin: 12px 0px 0px 10px;
+}
+
+.mobile{
+   font-size: 1em;
+   margin: 14px 0px 0px 0px;
+}
