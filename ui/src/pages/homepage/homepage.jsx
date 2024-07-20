@@ -3,6 +3,7 @@ import Sidebar from '../../components/navbar/sidebar/Sidebar'
 import styles from "./homepage.module.css"
 import Section from '../../components/navbar/section/section'
 import { Routes, Route } from "react-router-dom"
+import Developer from './developer'
 
 const Homepage = () => {
     return (
@@ -10,8 +11,7 @@ const Homepage = () => {
             <Sidebar />
             <Routes>
                 <Route path='/' element={<Section />} />
-            </Routes>
-        </div>
+            </Routes>        </div>
    )
 }
 

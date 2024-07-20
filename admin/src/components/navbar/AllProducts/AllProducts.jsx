@@ -36,7 +36,7 @@ const AllProducts = () => {
       <hr />
       <div className={ styles.imageAndDescription}>
         <img src={ele.image} alt="" className={styles.image} />
-        <div>
+              <div style={{display:"flex",flexDirection:"column",flexWrap:"wrap"}}>
           <p className={styles.name}>{ele.company} {ele.modelNo} ({ele.gb}) - {ele.colour}</p>
           <p className={styles.description} style={{ fontWeight: 600 }}>About this item:</p>
           <p className={styles.description}>Brand :- {ele.company}</p>
@@ -48,7 +48,7 @@ const AllProducts = () => {
           <p className={styles.description}>Description :- {ele.description}</p>
           <div className={styles.nameAndPrice}>
           <p className={styles.price}>Price :- ₹ {ele.price}</p>
-          <button className={styles.remove} onClick={removeProduct}>Delete</button>
+          <button className={styles.remove} onClick={()=>removeProduct(ele._id)}>Delete</button>
           </div>
         </div>
       </div>
