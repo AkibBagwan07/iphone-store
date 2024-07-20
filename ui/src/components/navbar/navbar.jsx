@@ -12,7 +12,9 @@ const Navbar = () => {
               <p className={ styles.name}>Satara</p>
               <p className={styles.mobile}>Mobile</p>
             </div>
-                {/* <p className={ styles.developer}>Web App Developed by - Akib Bagwan</p> */}
+            {/* <div>
+                <p style={{marginTop:"-32px"}}>Web App Developed by - Akib Bagwan</p>                
+            </div> */}
           {/* <div className={ styles.loginSignInCart}>
               <button className={ styles.loginBtn}>Login</button>
               <button className={styles.loginBtn}>Sign up</button>
