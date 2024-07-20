@@ -1,0 +1,41 @@
+.background{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    background-color: rgb(41, 39, 39);
+}
+
+.DevelopedByAndName{
+    display: flex;
+    flex-direction: column;
+}
+
+.DevelopedByAndName > p {
+    font-size: 32px;
+}
+
+.DevelopedByAndName > h2 {
+    margin-top: -8px;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.name{
+    color: yellow;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+}
+
+.end{
+    background-color: #030303;
+    height: 40px;
+}
+
+.bi{
+    mix-blend-mode: soft-light;
+}

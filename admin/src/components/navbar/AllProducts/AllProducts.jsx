@@ -48,7 +48,7 @@ const AllProducts = () => {
           <p className={styles.description}>Description :- {ele.description}</p>
           <div className={styles.nameAndPrice}>
           <p className={styles.price}>Price :- ₹ {ele.price}</p>
-          <button className={styles.remove} onClick={removeProduct}>Delete</button>
+          <button className={styles.remove} onClick={()=>removeProduct(ele._id)}>Delete</button>
           </div>
         </div>
       </div>

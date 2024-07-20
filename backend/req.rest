@@ -12,7 +12,7 @@ POST http://localhost:4000/removeProduct
 Content-Type: application/json
 
 {
-   "id":"669402fd71c2adac315831ee"
+   "id":"6696c30a63d41c816d2061f1"
 }
 
 ###
