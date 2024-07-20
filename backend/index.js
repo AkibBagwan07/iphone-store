@@ -9,7 +9,7 @@ dotenv.config()
 // const userRouter = require("./routes/users.routes")
 const Product = require("./model/phone.model")
 
-const port = 4000 || process.env.PORT;
+const port = `${process.env.PORT}`;
 const app = express();  
 app.use(express.json());
 app.use(cors());
