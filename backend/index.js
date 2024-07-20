@@ -50,13 +50,13 @@ app.post("/login", loginUser);
     (async function () {
         try {
             await mongoose.connect(`${process.env.DB_URI}`)
-            console.log(`connected to database ${process.env.DB_URI}`)
+           // console.log(`connected to database ${process.env.DB_URI}`)
         } catch (error) {
             console.log(error)
         }
     })();
 
 app.listen(port, () => {
-    console.log(`server is listening to port : ${port}`)
+   // console.log(`server is listening to port : ${port}`)
 });
 
