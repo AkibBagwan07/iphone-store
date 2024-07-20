@@ -49,8 +49,8 @@ app.post("/signup", addUser);
 app.post("/login", loginUser);
     (async function () {
         try {
-            await mongoose.connect(`${process.env.DB_URI}`)
-            console.log(`connected to database ${process.env.DB_URI}`)
+            await mongoose.connect(`mongodb+srv://akibbagwan69:akibbagwan96@cluster0.f6gp0ov.mongodb.net/`)
+            console.log(`connected to database mongodb+srv://akibbagwan69:akibbagwan96@cluster0.f6gp0ov.mongodb.net/`)
         } catch (error) {
             console.log(error)
         }
