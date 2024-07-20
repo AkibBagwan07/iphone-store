@@ -1,0 +1,77 @@
+.link{
+    text-decoration: none;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction:column ;
+    width: 100%;
+    max-width: 280px;
+    height: 80vh;
+    background-color: white;
+    align-items: center;
+    padding-top: 30px;
+    gap: 50px;
+}
+
+.whatsApp{
+    width: 130px;
+    height: 130px;
+    margin-bottom: -16px;
+}
+
+.insta{
+    width: 85px;
+    height: 85px;
+}
+
+.fb{
+     width: 100px;
+    height: 80px;
+}
+
+.sidebarItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin: 64px 20px -20px 20px;
+    padding: 0px 10px;
+    gap: 8px;
+}
+
+.sidebarItem > p{
+    font-size: 18px;
+    font-weight: 540;
+    border-bottom: 0.5px dotted gray;
+}
+
+@media(max-width:800px){
+    .sidebar{
+        padding: 30px 3px;
+        flex-direction: row;
+        width: 100%;
+        margin-left: 30px;
+        max-width: none;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .sidebarItem{
+        margin-top: -24px;
+    }
+    .whatsApp{
+        width: 80px;
+        height: 80px;
+    }
+    .insta{
+        height: 50px;
+        width: 50px;
+    }
+    .fb{
+        width: 40px;
+        height: 40px;
+    }
+}
