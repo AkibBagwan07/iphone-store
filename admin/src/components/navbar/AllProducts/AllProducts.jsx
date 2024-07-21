@@ -6,14 +6,14 @@ const AllProducts = () => {
   const [allProducts, setAllProducts] = useState([])
   
   const fetchAllProducts = async () => {
-    await fetch("http://localhost:4000/allProducts").then((res) => res.json()).then((data) => {
+    await fetch("https://iphone-store-backend-ufz6.onrender.com/allProducts").then((res) => res.json()).then((data) => {
      // console.log(data)
       setAllProducts(data)
     })
   }
 
   const removeProduct = async (id) => { 
-  await fetch(`http://localhost:4000/removeProduct`, {
+  await fetch(`https://iphone-store-backend-ufz6.onrender.com/removeProduct`, {
     method: "POST",
     headers: {
       Accept: "application/json",
