@@ -10,7 +10,7 @@ const Section = () => {
     const [currEle,setCurrEle] = useState()  
     // console.log(currEle)
     const fetchAllProducts = async () => {
-    await fetch("http://localhost:4000/allProducts").then((res) => res.json()).then((data) => {
+    await fetch("https://iphone-store-backend-ufz6.onrender.com/allProducts").then((res) => res.json()).then((data) => {
       // console.log(data)
       setAllProducts(data)
     })
