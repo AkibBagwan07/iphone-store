@@ -48,7 +48,7 @@ const AddProduct = () => {
         // }
         // console.log(productDetails)
         if (productDetails.image != "") { 
-            await fetch("http://localhost:4000/addProduct", {
+            await fetch("https://iphone-store-backend-ufz6.onrender.com/addProduct", {
                 method: "POST",
                 headers: {
                     Accept:'application/json',
