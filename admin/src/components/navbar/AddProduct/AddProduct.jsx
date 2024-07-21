@@ -35,7 +35,7 @@ const AddProduct = () => {
         let formData = new FormData()
         formData.append('product', showImage);
 
-        await fetch("http://localhost:4000/upload", {
+        await fetch("https://iphone-store-backend-ufz6.onrender.com/upload", {
             method: "POST",
             headers: {
                 Accept: 'application/json',
